@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "businesses",
   "info": {
-    "name": "Business"
+    "name": "Business",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -24,6 +25,9 @@
     },
     "email": {
       "type": "email"
+    },
+    "website": {
+      "type": "string"
     }
   }
 }

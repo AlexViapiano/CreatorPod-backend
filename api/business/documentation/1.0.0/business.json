@@ -536,6 +536,9 @@
           },
           "email": {
             "type": "string"
+          },
+          "website": {
+            "type": "string"
           }
         }
       },
@@ -554,6 +557,9 @@
             "type": "string"
           },
           "email": {
+            "type": "string"
+          },
+          "website": {
             "type": "string"
           },
           "created_by": {
