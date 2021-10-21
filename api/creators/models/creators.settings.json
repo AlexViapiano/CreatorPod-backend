@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "creators",
+  "info": {
+    "name": "Creators"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "string"
+    }
+  }
+}

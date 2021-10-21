@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "businesses",
+  "info": {
+    "name": "Business"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
