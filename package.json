@@ -1,8 +1,8 @@
 {
-  "name": "creatorpod",
+  "name": "creatorpod-backend",
   "private": true,
-  "version": "0.1.2",
-  "description": "A Strapi application",
+  "version": "1.0.0",
+  "description": "The easiest way to find creators ready to work with your brand!",
   "scripts": {
     "dev": "strapi develop",
     "start": "strapi start",
