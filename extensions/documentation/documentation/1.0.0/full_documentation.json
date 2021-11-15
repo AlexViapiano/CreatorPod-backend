@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/14/2021 11:17:51 PM"
+    "x-generation-date": "11/14/2021 11:26:42 PM"
   },
   "x-strapi-config": {
     "path": "/docs",
@@ -3832,72 +3832,6 @@
           },
           "website": {
             "type": "string"
-          },
-          "users_permissions_user": {
-            "required": [
-              "id",
-              "username",
-              "email"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "username": {
-                "type": "string"
-              },
-              "email": {
-                "type": "string"
-              },
-              "provider": {
-                "type": "string"
-              },
-              "password": {
-                "type": "string"
-              },
-              "resetPasswordToken": {
-                "type": "string"
-              },
-              "confirmed": {
-                "type": "boolean"
-              },
-              "blocked": {
-                "type": "boolean"
-              },
-              "role": {
-                "type": "string"
-              },
-              "stripeCustomerId": {
-                "type": "string"
-              },
-              "firstName": {
-                "type": "string"
-              },
-              "lastName": {
-                "type": "string"
-              },
-              "profilePic": {
-                "type": "string"
-              },
-              "phoneNumber": {
-                "type": "string"
-              },
-              "creator": {
-                "type": "boolean"
-              },
-              "Test": {
-                "type": "string"
-              },
-              "business": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
           }
         }
       },
@@ -3919,9 +3853,6 @@
             "type": "string"
           },
           "website": {
-            "type": "string"
-          },
-          "users_permissions_user": {
             "type": "string"
           },
           "created_by": {
@@ -4201,9 +4132,6 @@
                 "Test": {
                   "type": "string"
                 },
-                "business": {
-                  "type": "string"
-                },
                 "created_by": {
                   "type": "string"
                 },
@@ -4402,43 +4330,6 @@
           },
           "Test": {
             "type": "string"
-          },
-          "business": {
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "firstname": {
-                "type": "string"
-              },
-              "lastname": {
-                "type": "string"
-              },
-              "company": {
-                "type": "string"
-              },
-              "phone_number": {
-                "type": "string"
-              },
-              "email": {
-                "type": "string"
-              },
-              "website": {
-                "type": "string"
-              },
-              "users_permissions_user": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
           }
         }
       },
@@ -4495,9 +4386,6 @@
             "default": false
           },
           "Test": {
-            "type": "string"
-          },
-          "business": {
             "type": "string"
           },
           "created_by": {

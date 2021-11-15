@@ -1336,43 +1336,6 @@
           },
           "Test": {
             "type": "string"
-          },
-          "business": {
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "firstname": {
-                "type": "string"
-              },
-              "lastname": {
-                "type": "string"
-              },
-              "company": {
-                "type": "string"
-              },
-              "phone_number": {
-                "type": "string"
-              },
-              "email": {
-                "type": "string"
-              },
-              "website": {
-                "type": "string"
-              },
-              "users_permissions_user": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
           }
         }
       },
@@ -1429,9 +1392,6 @@
             "default": false
           },
           "Test": {
-            "type": "string"
-          },
-          "business": {
             "type": "string"
           },
           "created_by": {

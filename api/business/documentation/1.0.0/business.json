@@ -539,72 +539,6 @@
           },
           "website": {
             "type": "string"
-          },
-          "users_permissions_user": {
-            "required": [
-              "id",
-              "username",
-              "email"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "username": {
-                "type": "string"
-              },
-              "email": {
-                "type": "string"
-              },
-              "provider": {
-                "type": "string"
-              },
-              "password": {
-                "type": "string"
-              },
-              "resetPasswordToken": {
-                "type": "string"
-              },
-              "confirmed": {
-                "type": "boolean"
-              },
-              "blocked": {
-                "type": "boolean"
-              },
-              "role": {
-                "type": "string"
-              },
-              "stripeCustomerId": {
-                "type": "string"
-              },
-              "firstName": {
-                "type": "string"
-              },
-              "lastName": {
-                "type": "string"
-              },
-              "profilePic": {
-                "type": "string"
-              },
-              "phoneNumber": {
-                "type": "string"
-              },
-              "creator": {
-                "type": "boolean"
-              },
-              "Test": {
-                "type": "string"
-              },
-              "business": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
           }
         }
       },
@@ -626,9 +560,6 @@
             "type": "string"
           },
           "website": {
-            "type": "string"
-          },
-          "users_permissions_user": {
             "type": "string"
           },
           "created_by": {

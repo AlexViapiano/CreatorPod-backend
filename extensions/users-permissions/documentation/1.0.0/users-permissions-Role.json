@@ -579,9 +579,6 @@
                 "Test": {
                   "type": "string"
                 },
-                "business": {
-                  "type": "string"
-                },
                 "created_by": {
                   "type": "string"
                 },

@@ -82,10 +82,6 @@
     },
     "Test": {
       "type": "string"
-    },
-    "business": {
-      "via": "users_permissions_user",
-      "model": "business"
     }
   }
 }
