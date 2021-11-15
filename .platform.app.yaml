@@ -42,22 +42,18 @@ web:
       scripts: false
       index:
         - full_documentation.json
-  locations:
-    # User Extend
     "/docs/spec":
       root: "extensions/users-permissions/models"
       allow: true
-      scripts: false
+      scripts: true
       index:
         - User.js
-  locations:
-    # User Extend
     "/docs/spec":
       root: "extensions/users-permissions/models"
       allow: true
-      scripts: false
+      scripts: true
       index:
-        - User.settings.json
+        - User.settings.js
   commands:
     start: |
       # Production start on all environments
