@@ -1254,10 +1254,10 @@
           "stripe_customer_id": {
             "type": "string"
           },
-          "first_name": {
+          "firstName": {
             "type": "string"
           },
-          "last_name": {
+          "lastName": {
             "type": "string"
           },
           "profile_pic": {
@@ -1375,10 +1375,10 @@
           "stripe_customer_id": {
             "type": "string"
           },
-          "first_name": {
+          "firstName": {
             "type": "string"
           },
-          "last_name": {
+          "lastName": {
             "type": "string"
           },
           "phone_number": {
