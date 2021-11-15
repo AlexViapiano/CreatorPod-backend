@@ -57,6 +57,9 @@
     "creator": {
       "type": "boolean",
       "default": false
+    },
+    "creator_user": {
+      "model": "creators"
     }
   }
 }

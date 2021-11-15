@@ -1254,6 +1254,46 @@
           "creator": {
             "type": "boolean",
             "default": false
+          },
+          "creator_user": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "firstname": {
+                "type": "string"
+              },
+              "lastname": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "phone_number": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string"
+              },
+              "handles": {
+                "type": "string"
+              },
+              "video": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           }
         }
       },
@@ -1296,6 +1336,9 @@
           "creator": {
             "type": "boolean",
             "default": false
+          },
+          "creator_user": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

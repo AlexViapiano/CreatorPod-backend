@@ -561,6 +561,9 @@
                 "creator": {
                   "type": "boolean"
                 },
+                "creator_user": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },
