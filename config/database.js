@@ -12,6 +12,9 @@ let options = {
   useNullAsDefault: true,
 };
 
+console.log(config.isValidPlatform());
+console.log(config.inBuild());
+
 if (config.isValidPlatform() && !config.inBuild()) {
   // Platform.sh database configuration.
   const credentials = config.credentials(dbRelationship);
