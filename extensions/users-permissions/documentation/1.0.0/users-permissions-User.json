@@ -1333,9 +1333,6 @@
           "creator": {
             "type": "boolean",
             "default": false
-          },
-          "Test": {
-            "type": "string"
           }
         }
       },
@@ -1390,9 +1387,6 @@
           "creator": {
             "type": "boolean",
             "default": false
-          },
-          "Test": {
-            "type": "string"
           },
           "created_by": {
             "type": "string"

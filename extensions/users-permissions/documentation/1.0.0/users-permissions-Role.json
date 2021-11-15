@@ -576,9 +576,6 @@
                 "creator": {
                   "type": "boolean"
                 },
-                "Test": {
-                  "type": "string"
-                },
                 "created_by": {
                   "type": "string"
                 },
