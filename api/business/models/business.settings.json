@@ -28,9 +28,6 @@
     },
     "website": {
       "type": "string"
-    },
-    "Test": {
-      "type": "string"
     }
   }
 }

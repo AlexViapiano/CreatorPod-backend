@@ -539,9 +539,6 @@
           },
           "website": {
             "type": "string"
-          },
-          "Test": {
-            "type": "string"
           }
         }
       },
@@ -563,9 +560,6 @@
             "type": "string"
           },
           "website": {
-            "type": "string"
-          },
-          "Test": {
             "type": "string"
           },
           "created_by": {
