@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/14/2021 10:32:21 PM"
+    "x-generation-date": "11/14/2021 10:44:59 PM"
   },
   "x-strapi-config": {
     "path": "/docs",
@@ -4117,7 +4117,7 @@
                 "role": {
                   "type": "string"
                 },
-                "stripe_customer_id": {
+                "stripeCustomerId": {
                   "type": "string"
                 },
                 "firstName": {
@@ -4126,14 +4126,17 @@
                 "lastName": {
                   "type": "string"
                 },
-                "profile_pic": {
+                "profilePic": {
                   "type": "string"
                 },
-                "phone_number": {
+                "phoneNumber": {
                   "type": "string"
                 },
                 "creator": {
                   "type": "boolean"
+                },
+                "Test": {
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
@@ -4248,7 +4251,7 @@
               }
             }
           },
-          "stripe_customer_id": {
+          "stripeCustomerId": {
             "type": "string"
           },
           "firstName": {
@@ -4257,7 +4260,7 @@
           "lastName": {
             "type": "string"
           },
-          "profile_pic": {
+          "profilePic": {
             "required": [
               "id",
               "name",
@@ -4324,12 +4327,15 @@
               }
             }
           },
-          "phone_number": {
+          "phoneNumber": {
             "type": "string"
           },
           "creator": {
             "type": "boolean",
             "default": false
+          },
+          "Test": {
+            "type": "string"
           }
         }
       },
@@ -4369,7 +4375,7 @@
           "role": {
             "type": "string"
           },
-          "stripe_customer_id": {
+          "stripeCustomerId": {
             "type": "string"
           },
           "firstName": {
@@ -4378,12 +4384,15 @@
           "lastName": {
             "type": "string"
           },
-          "phone_number": {
+          "phoneNumber": {
             "type": "string"
           },
           "creator": {
             "type": "boolean",
             "default": false
+          },
+          "Test": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

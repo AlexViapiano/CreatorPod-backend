@@ -54,7 +54,7 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "stripe_customer_id": {
+    "stripeCustomerId": {
       "type": "string"
     },
     "firstName": {
@@ -63,20 +63,25 @@
     "lastName": {
       "type": "string"
     },
-    "profile_pic": {
+    "profilePic": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
     },
-    "phone_number": {
+    "phoneNumber": {
       "type": "string"
     },
     "creator": {
       "type": "boolean",
       "default": false
+    },
+    "Test": {
+      "type": "string"
     }
   }
 }

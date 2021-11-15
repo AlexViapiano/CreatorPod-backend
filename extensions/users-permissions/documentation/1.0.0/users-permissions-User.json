@@ -1251,7 +1251,7 @@
               }
             }
           },
-          "stripe_customer_id": {
+          "stripeCustomerId": {
             "type": "string"
           },
           "firstName": {
@@ -1260,7 +1260,7 @@
           "lastName": {
             "type": "string"
           },
-          "profile_pic": {
+          "profilePic": {
             "required": [
               "id",
               "name",
@@ -1327,12 +1327,15 @@
               }
             }
           },
-          "phone_number": {
+          "phoneNumber": {
             "type": "string"
           },
           "creator": {
             "type": "boolean",
             "default": false
+          },
+          "Test": {
+            "type": "string"
           }
         }
       },
@@ -1372,7 +1375,7 @@
           "role": {
             "type": "string"
           },
-          "stripe_customer_id": {
+          "stripeCustomerId": {
             "type": "string"
           },
           "firstName": {
@@ -1381,12 +1384,15 @@
           "lastName": {
             "type": "string"
           },
-          "phone_number": {
+          "phoneNumber": {
             "type": "string"
           },
           "creator": {
             "type": "boolean",
             "default": false
+          },
+          "Test": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"
