@@ -42,18 +42,6 @@ web:
       scripts: false
       index:
         - full_documentation.json
-    "/User.js":
-      root: "extensions/users-permissions/models"
-      allow: true
-      scripts: true
-      index:
-        - User.js
-    "/User.settings.js":
-      root: "extensions/users-permissions/models"
-      allow: true
-      scripts: true
-      index:
-        - User.settings.js
   commands:
     start: |
       # Production start on all environments
