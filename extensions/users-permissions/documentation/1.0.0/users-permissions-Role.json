@@ -549,9 +549,6 @@
                 "resetPasswordToken": {
                   "type": "string"
                 },
-                "confirmationToken": {
-                  "type": "string"
-                },
                 "confirmed": {
                   "type": "boolean"
                 },
@@ -560,6 +557,24 @@
                 },
                 "role": {
                   "type": "string"
+                },
+                "stripe_customer_id": {
+                  "type": "string"
+                },
+                "first_name": {
+                  "type": "string"
+                },
+                "last_name": {
+                  "type": "string"
+                },
+                "profile_pic": {
+                  "type": "string"
+                },
+                "phone_number": {
+                  "type": "string"
+                },
+                "creator": {
+                  "type": "boolean"
                 },
                 "created_by": {
                   "type": "string"
