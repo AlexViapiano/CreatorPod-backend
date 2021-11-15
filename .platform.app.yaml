@@ -42,13 +42,13 @@ web:
       scripts: false
       index:
         - full_documentation.json
-    "/docs/spec":
+    "/User.js":
       root: "extensions/users-permissions/models"
       allow: true
       scripts: true
       index:
         - User.js
-    "/docs/spec":
+    "/User.settings.js":
       root: "extensions/users-permissions/models"
       allow: true
       scripts: true
