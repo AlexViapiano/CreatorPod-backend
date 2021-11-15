@@ -54,26 +54,6 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "stripeCustomerId": {
-      "type": "string"
-    },
-    "firstName": {
-      "type": "string"
-    },
-    "lastName": {
-      "type": "string"
-    },
-    "profilePic": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": ["images"],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "phoneNumber": {
-      "type": "string"
-    },
     "creator": {
       "type": "boolean",
       "default": false
