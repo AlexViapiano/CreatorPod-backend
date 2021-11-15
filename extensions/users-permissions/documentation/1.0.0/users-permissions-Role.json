@@ -558,21 +558,6 @@
                 "role": {
                   "type": "string"
                 },
-                "stripeCustomerId": {
-                  "type": "string"
-                },
-                "firstName": {
-                  "type": "string"
-                },
-                "lastName": {
-                  "type": "string"
-                },
-                "profilePic": {
-                  "type": "string"
-                },
-                "phoneNumber": {
-                  "type": "string"
-                },
                 "creator": {
                   "type": "boolean"
                 },
