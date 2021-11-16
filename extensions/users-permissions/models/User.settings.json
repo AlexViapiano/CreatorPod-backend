@@ -54,10 +54,6 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "creator": {
-      "type": "boolean",
-      "default": false
-    },
     "creator_user": {
       "model": "creators"
     }

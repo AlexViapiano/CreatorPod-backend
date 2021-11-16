@@ -558,9 +558,6 @@
                 "role": {
                   "type": "string"
                 },
-                "creator": {
-                  "type": "boolean"
-                },
                 "creator_user": {
                   "type": "string"
                 },

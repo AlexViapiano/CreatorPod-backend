@@ -37,11 +37,11 @@ web:
   locations:
     # For serving the generated OpenAPI specification as part of the documentation.
     "/docs/spec":
-      root: "extensions/documentation/documentation/1.0.0"
+      root: "extensions/users-permissions/models"
       allow: true
       scripts: false
       index:
-        - full_documentation.json
+        - User.settings.json
   commands:
     start: |
       # Production start on all environments

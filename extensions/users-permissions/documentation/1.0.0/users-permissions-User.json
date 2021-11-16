@@ -1251,10 +1251,6 @@
               }
             }
           },
-          "creator": {
-            "type": "boolean",
-            "default": false
-          },
           "creator_user": {
             "required": [
               "id"
@@ -1332,10 +1328,6 @@
           },
           "role": {
             "type": "string"
-          },
-          "creator": {
-            "type": "boolean",
-            "default": false
           },
           "creator_user": {
             "type": "string"
