@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "leads",
   "info": {
-    "name": "Lead"
+    "name": "Lead",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,7 +11,7 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "Page": {
+    "page": {
       "type": "string"
     }
   }

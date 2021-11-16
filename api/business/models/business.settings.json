@@ -28,6 +28,10 @@
     },
     "website": {
       "type": "string"
+    },
+    "jobs": {
+      "via": "business",
+      "collection": "job"
     }
   }
 }

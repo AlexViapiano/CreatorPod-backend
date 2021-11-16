@@ -39,6 +39,15 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "user": {
+      "via": "creator_user",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "jobs": {
+      "via": "creators",
+      "collection": "job"
     }
   }
 }
