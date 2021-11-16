@@ -6,8 +6,8 @@
     "description": ""
   },
   "options": {
-    "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": false,
+    "timestamps": true
   },
   "attributes": {
     "username": {
@@ -34,6 +34,11 @@
       "private": true
     },
     "resetPasswordToken": {
+      "type": "string",
+      "configurable": false,
+      "private": true
+    },
+    "confirmationToken": {
       "type": "string",
       "configurable": false,
       "private": true
