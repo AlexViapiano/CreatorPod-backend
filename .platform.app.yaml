@@ -9,10 +9,6 @@ name: app
 # The runtime the application uses. Strapi not yet suppported with NodeJS 14.
 type: nodejs:12
 
-# Use Yarn instead of npm.
-build:
-  flavor: none
-
 # Build dependencies.
 dependencies:
   nodejs:
@@ -37,7 +33,7 @@ web:
   commands:
     start: |
       # Production start on all environments
-        NODE_ENV=production npm build
+        NODE_ENV=production npm start
 
 # The size of the persistent disk of the application (in MB).
 disk: 1024
