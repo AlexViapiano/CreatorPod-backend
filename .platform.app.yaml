@@ -34,18 +34,10 @@ relationships:
 
 # The configuration of app when it is exposed to the web.
 web:
-  locations:
-    # For serving the generated OpenAPI specification as part of the documentation.
-    "/docs/spec":
-      root: "extensions/users-permissions/models"
-      allow: true
-      scripts: false
-      index:
-        - User.settings.json
   commands:
     start: |
       # Production start on all environments
-        NODE_ENV=production yarn start
+        NODE_ENV=production npm build
 
 # The size of the persistent disk of the application (in MB).
 disk: 1024
