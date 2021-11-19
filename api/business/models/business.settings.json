@@ -11,16 +11,10 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "firstname": {
+    "name": {
       "type": "string"
     },
-    "lastname": {
-      "type": "string"
-    },
-    "company": {
-      "type": "string"
-    },
-    "phone_number": {
+    "phoneNumber": {
       "type": "string"
     },
     "email": {
@@ -32,6 +26,17 @@
     "jobs": {
       "via": "business",
       "collection": "job"
+    },
+    "user": {
+      "via": "business_user",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
     }
   }
 }

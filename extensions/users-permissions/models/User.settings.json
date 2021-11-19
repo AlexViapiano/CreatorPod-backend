@@ -60,11 +60,15 @@
       "configurable": false
     },
     "creator_user": {
-      "model": "creators",
-      "via": "user"
+      "via": "user",
+      "model": "creators"
     },
     "creator": {
       "type": "boolean"
+    },
+    "business_user": {
+      "via": "user",
+      "model": "business"
     }
   }
 }

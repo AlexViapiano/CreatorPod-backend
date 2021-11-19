@@ -15,13 +15,19 @@
       "type": "string"
     },
     "business": {
-      "model": "business",
-      "via": "jobs"
+      "via": "jobs",
+      "model": "business"
     },
     "creators": {
-      "collection": "creators",
       "via": "jobs",
+      "collection": "creators",
       "dominant": true
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

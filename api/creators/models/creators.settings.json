@@ -20,7 +20,7 @@
     "email": {
       "type": "email"
     },
-    "phone_number": {
+    "phoneNumber": {
       "type": "string"
     },
     "city": {
