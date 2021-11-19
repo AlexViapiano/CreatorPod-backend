@@ -64,6 +64,9 @@
     },
     "creator": {
       "type": "boolean"
+    },
+    "business_user": {
+      "model": "business"
     }
   }
 }
