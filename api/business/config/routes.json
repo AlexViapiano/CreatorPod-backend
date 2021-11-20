@@ -37,7 +37,7 @@
       "path": "/businesses/:id",
       "handler": "business.update",
       "config": {
-        "policies": []
+        "policies": ["global::isTargetUserLoggedIn"]
       }
     },
     {
